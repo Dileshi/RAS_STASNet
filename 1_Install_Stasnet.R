@@ -1,19 +1,20 @@
 #set working directly to GitHub: setwd("~/Documents/GitHub")
 
-#install the R package ""STASNet from GitHub
+#install the R package "STASNet" from GitHub
 install.packages("devtools")
 library(devtools)
+
 #installing the STASNET package created by molsysbio
-install_github("molsysbio/STASNet")
+install_github("molsysbio/STASNet") 
+      #Error: THIS PACKAGE REQUIRES GINAC.
+  #install Ginac
+   
 library(STASNet)
 
 
 
 install.packages("BiocManager")
 BiocManager::install("Rgraphviz")
-
-
-
 
 install.packages("Rgraphviz")
 
